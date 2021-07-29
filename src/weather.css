@@ -1,0 +1,60 @@
+.outer{
+
+
+background-color: #00344b;
+color: white;
+margin-top: 20px;
+
+}
+
+.card {
+    background-image: url("https://i.imgur.com/dpqZJV5.jpg");
+background-size: cover;
+width: 600px;
+height: 350px;
+border-radius: 20px;
+box-shadow: 0px 8px 16px 4px #9E9E9E;
+margin-top: 50px;
+margin-bottom: 50px;
+color:white}
+
+.time-font {
+font-size: 50px;
+color:white
+}
+
+.sm-font {
+font-size: 18px
+}
+
+.med-font {
+font-size: 30px
+}
+
+.large-font {
+    font-size: 100px
+}
+
+.ip{
+    width:40%;
+    margin-top:20px;
+    margin-bottom: 10px;
+    
+    margin-left: 15%;
+}
+.butt{
+    margin-left: 35%;
+    margin-top:50px;
+    height:40px;
+    width:30%;
+    color: black;
+    font-size: 20px
+}
+
+.butt1{
+    
+    margin-top:50px;
+    height:40px;
+    width:100%;
+    font-size: 20px
+}
