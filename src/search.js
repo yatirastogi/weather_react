@@ -65,6 +65,8 @@ class Search extends Component  {
           case 7:
            m="Sunday";
           break
+          default:
+           m="";
           }
 
         //date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
@@ -90,7 +92,7 @@ class Search extends Component  {
       
         changecity(newc)
         {
-          var dataq;
+        
           // let dataq=undefined;
          newc.preventDefault();
          const nc=newc.target.parentElement.offsetParent.childNodes[1].parentElement.childNodes[0].value;
@@ -100,7 +102,7 @@ class Search extends Component  {
         fetch("http://api.openweathermap.org/data/2.5/weather?q="+nc+",India&APPID=9a00a6a57a3f03e78f3d4abb7c0e6f3f")
         .then(responseq=>responseq.json())
         .then(dataq=>{console.log(dataq);
-         if(dataq.cod==404)
+         if(dataq.cod===404)
          {
            this.setState({
              
